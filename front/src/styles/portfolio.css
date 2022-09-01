@@ -1,0 +1,115 @@
+#navbar {
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(31, 31, 31, 0.9);
+    z-index: 100;
+}
+
+#menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#menu li {
+    list-style: none;
+}
+
+.link button{
+    background: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 18px;
+    color:azure;
+    padding: 3px;
+    border: none;
+    border-bottom: 2px #2C2D2E dotted;
+    border-bottom-right-radius: 225px 5px;
+    border-bottom-left-radius: 225px 7px;
+}
+.link.active button {
+    border: none;
+    border-bottom: 2px azure dotted;
+    border-bottom-right-radius: 225px 5px;
+    border-bottom-left-radius: 225px 7px;
+    color: #FDEEBB;
+    transition: ease-in 0.3s;
+}
+.link button:hover {
+    border: none;
+    border-bottom: 2px azure dotted;
+    border-bottom-right-radius: 225px 5px;
+    border-bottom-left-radius: 225px 7px;
+    color: #FDEEBB;
+    transition: ease-in 0.3s;
+}
+
+.logo {
+    font-family: 'Freckle Face', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo span {
+    color: rgb(185, 9, 9);
+}
+
+#main {
+    padding-top: 70px;
+}
+
+.pag {
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pag.sec {
+    grid-template-columns: 2fr 1fr;
+}
+
+.pag.sec.contact {
+    align-items: flex-start;
+}
+
+.pag.ter {
+    grid-template-columns: 3fr 1fr;
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        justify-content: flex-start;
+    }
+    #menu {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .logo {
+        display: none;
+        margin-left: 0;
+    }
+    .link.home {
+        display: none;
+    }
+    .link button {
+        font-size: 12px;
+    }
+    .pag {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+}

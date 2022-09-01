@@ -1,0 +1,173 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -30px;
+}
+.row.in {
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.row.msg {
+    margin-top: 20px;
+}
+
+#mail {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.email {
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ingh {
+    width: 40%;
+}
+
+#enviarMensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px; 
+}
+#enviarMensaje label {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 22px;
+    color: rgb(185, 9, 9);
+}
+
+#enviaM {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 28px;
+    color: #FDEEBB;
+    transform: rotate(-3deg);
+    margin-top: -15px;
+    margin-left: 40px;
+}
+
+.flecha2 {
+    transform: rotate(90deg);
+    width: 8%;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.input {
+    background: none;
+    width: 50%;
+    font-family: 'Coming Soon', cursive;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px dashed #FFF;
+    border-bottom-right-radius: 225px 5px;
+    border-bottom-left-radius: 225px 7px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.input:focus {
+    border: none;
+    border-bottom: 2px dashed #FDEEBB;
+}
+
+#mensaje {
+    background: none;
+    font-family: 'Coming Soon', cursive;
+    color: #FFF;
+    font-size: 18px;
+    width: 80%;
+    resize: none;
+    border: 2px dashed #FFF;
+    border-top-left-radius: 300px 5px;
+    border-bottom-left-radius: 300px 5px;
+    outline: none;
+}
+#mensaje:focus {
+    border: 2px dashed #FDEEBB;
+}
+
+.error {
+    font-family: 'Coming Soon', cursive; 
+    color: darkorange;
+    transition: ease-in 0.5s;
+}
+
+.boton.enviar:disabled {
+    color:#555;
+}
+.boton.enviar:disabled:hover {
+    background-color: #212224;
+    color:#555;
+}
+
+.botoncito.mensaje {
+    margin-left: 10px;
+}
+
+.flecha1.men {
+    position: relative;
+    width: 130px;
+    margin-top: -40px;
+}
+
+@keyframes out_rotativo{
+    100%{
+      transform: translateX(150%) rotate(260deg);
+      opacity: 0; 
+    }
+}
+
+.sobre {
+    width: 15%;
+    margin-left: 40px;
+    animation: out_rotativo 1s infinite;
+}
+
+.noSobre {
+    display: none;
+    width: 15%;
+    margin-left: 40px;
+}
+
+@media (max-width: 600px) {
+    .email {
+        font-size: 20px;
+    }
+    #enviaM, #enviarMensaje label, .input #mensaje, #mensaje {
+        font-size: 15px;
+    }
+    .flecha2 {
+        margin-top: -20px;
+    }
+    #enviarMensaje {
+        margin-top: -30px;
+    }
+    .flecha1.men {
+        width: 80px;
+    }
+    .row.msg {
+        margin-top: 5px;
+        margin-left: -20px;
+    }
+    .row.in {
+        margin-top: 5px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .ingh {
+        width: 25%;
+    }
+    .sobre {
+        margin-left: 15px;
+    }
+   
+}
+
+  
+
+  

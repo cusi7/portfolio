@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 95vw;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/cusi/image/upload/v1661568979/empty-blackboardddd_p9zcsf.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: azure;
+}
+
+::-webkit-scrollbar{
+  background: #090909;
+  width: 13px;
+}
+::-webkit-scrollbar-thumb{
+   background: #252525;
+   width: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+   background-color: #333;
+}
+
+::-webkit-scrollbar-thumb:active{
+   background-color: #555;
+}
+/* Barra de scroll en Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #090909 #333;
+}

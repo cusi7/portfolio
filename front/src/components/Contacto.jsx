@@ -1,6 +1,6 @@
 import React from "react";
 import axios from 'axios';
-import env from "react-dotenv";
+// import env from "react-dotenv";
 import '../styles/landing.css';
 import '../styles/info.css';
 import '../styles/contacto.css';
@@ -106,7 +106,7 @@ export default function Contacto() {
         if (data.email.length > 0 && data.msj.length > 0) {
             try {
                 console.log(data)
-                const back = await axios.post(env.N_EMAIL, data);
+                const back = await axios.post(process.env.N_EMAIL, data);
                 alert(back.data)
             } catch (error) {
                console.log(error) 

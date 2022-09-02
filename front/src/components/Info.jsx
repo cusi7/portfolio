@@ -15,7 +15,7 @@ export default function Info() {
                     y me incentiva a seguir aprendiendo.</li>
                 <li className="texto">Te invito a descargar mi CV, y no dudes en contactarme para conocer más sobre mí...</li>
             </ul>
-            <img src="https://res.cloudinary.com/cusi/image/upload/v1661625331/flecha-2_ocb6oi.png" alt="'flecha1" className='flecha1'/>
+            <img src="https://drive.google.com/uc?id=1MIMuUXCxCQaFQ_W_V1l4eX2TPBg2IwN9&export=download" alt="'flecha1" className='flecha1'/>
             <a download href="./download/Griselda_Juarez_CV.pdf" className='botoncito cv'>
                 <button className="boton">
                     Mi CV

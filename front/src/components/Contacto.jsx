@@ -106,7 +106,7 @@ export default function Contacto() {
         if (data.email.length > 0 && data.msj.length > 0) {
             try {
                 console.log(data)
-                const back = await axios.post(process.env.EMAIL, data);
+                const back = await axios.post(env.EMAIL, data);
                 alert(back.data)
             } catch (error) {
                console.log(error) 

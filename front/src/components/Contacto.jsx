@@ -106,7 +106,7 @@ export default function Contacto() {
         if (data.email.length > 0 && data.msj.length > 0) {
             try {
                 console.log(data)
-                const back = await axios.post(env.REACT_APP_EMAIL, data);
+                const back = await axios.post(process.env.REACT_APP_EMAIL, data);
                 alert(back.data)
             } catch (error) {
                console.log(error) 
@@ -149,15 +149,6 @@ export default function Contacto() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661997765/sobre_hnobms.png" alt="sobre" className= { loading ? "sobre" : "noSobre"}/>
                 </div>
             </form>
-            <p>process:</p>
-            <p>{process.env.REACT_APP_EMAIL}</p>
-            <p>env:</p>
-            <p>{env.REACT_APP_EMAIL}</p>
-            <p>probando...</p>
-            <p>process.env.OTROOO:</p>
-            <p>{process.env.REACT_APP_OTROOO}</p>
-            <p>env:</p>
-            <p>{env.REACT_APP_OTROOO}</p>
         </div>
         <div className="row in">
             <a href="https://www.linkedin.com/in/griselda-juarez-developer/" target="_blank" rel="noopener noreferrer" className="ingh">

@@ -111,6 +111,7 @@ export default function Contacto() {
                 alert(back.data)
             } catch (error) {
                console.log(error) 
+               alert('Lo siento, no se pudo enviar el mensaje')
             }
             setData({
                 nombre: '',

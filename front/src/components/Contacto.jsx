@@ -152,6 +152,9 @@ export default function Contacto() {
             <p>{process.env.EMAIL}</p>
             <p>{env.EMAIL}</p>
             <p>probando...</p>
+            <p>process.env.OTROOO:</p>
+            <p>{process.env.OTROOO}</p>
+            <p>{env.OTROOO}</p>
         </div>
         <div className="row in">
             <a href="https://www.linkedin.com/in/griselda-juarez-developer/" target="_blank" rel="noopener noreferrer" className="ingh">

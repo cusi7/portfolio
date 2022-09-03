@@ -141,6 +141,14 @@
     #enviaM, #enviarMensaje label, .input #mensaje, #mensaje {
         font-size: 15px;
     }
+    #mensaje {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .input {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
     .flecha2 {
         margin-top: -20px;
     }

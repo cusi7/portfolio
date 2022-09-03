@@ -149,6 +149,7 @@ export default function Contacto() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661997765/sobre_hnobms.png" alt="sobre" className= { loading ? "sobre" : "noSobre"}/>
                 </div>
             </form>
+            <p>{process.env.EMAIL}</p>
             <p>{env.EMAIL}</p>
             <p>probando...</p>
         </div>

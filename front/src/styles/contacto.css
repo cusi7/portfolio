@@ -144,10 +144,12 @@
     #mensaje {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        border-radius: 5px;
     }
     .input {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
+        border-radius: 5px;
     }
     .flecha2 {
         margin-top: -20px;

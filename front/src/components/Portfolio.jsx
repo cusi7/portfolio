@@ -11,6 +11,12 @@ import Contacto from "./Contacto";
 export default function Portfolio() {
     return(
         <>
+            <div id='load'>
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
             <header id="navbar">
             <div className="logo">
                 <h2 className="logo">g<span>J</span></h2>

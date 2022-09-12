@@ -1,6 +1,5 @@
 import React from "react";
 import axios from 'axios';
-import env from "react-dotenv";
 import '../styles/landing.css';
 import '../styles/info.css';
 import '../styles/contacto.css';

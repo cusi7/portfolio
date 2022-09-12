@@ -15,7 +15,7 @@ export default function Portfolio() {
     useEffect(() => {
         setTimeout(()=> {
             setLoad(false)
-        }, 3000)
+        }, 4000)
 
     }, [])
 

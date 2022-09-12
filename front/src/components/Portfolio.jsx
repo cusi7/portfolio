@@ -9,22 +9,9 @@ import Proyectos from "./Proyectos";
 import Contacto from "./Contacto";
 
 export default function Portfolio() {
-
-    const [loading, setLoading] = React.useState(true)
-
-    React.useEffect(async() => {
-        await window.onload();
-        setLoading(false);
-    }, []);
     
     return(
         <>
-            <div className={loading? "load" : "none"}>
-                <div class="lds-ripple">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
             <header id="navbar">
             <div className="logo">
                 <h2 className="logo">g<span>J</span></h2>

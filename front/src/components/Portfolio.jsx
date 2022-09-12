@@ -10,15 +10,16 @@ import Contacto from "./Contacto";
 
 export default function Portfolio() {
     
-    window.onload = function() {
-        const load = document.getElementById('load');
-        const div = document.getElementById('hidden');
-
-        load.style.display = 'none';
-        div.id = '.';
-
-    };
-
+    React.useEffect( () => {
+        window.onload = function() {
+            const load = document.getElementById('load');
+            const div = document.getElementById('hidden');
+    
+            load.style.display = 'none';
+            div.id = '.';
+        };
+    }, [])
+    
     return(
         <div id='hidden'>
             <div id='load'>

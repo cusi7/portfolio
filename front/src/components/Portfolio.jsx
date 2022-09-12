@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {Link} from "react-scroll";
 import '../styles/portfolio.css';
 
@@ -9,9 +9,27 @@ import Proyectos from "./Proyectos";
 import Contacto from "./Contacto";
 
 export default function Portfolio() {
+
+    const [load, setLoad] = useState(true);
     
+    useEffect(() => {
+        setTimeout(()=> {
+            setLoad(false)
+        }, 3000)
+
+    }, [])
+
     return(
         <>
+        <div className={load ? "visible" : "none"}>
+            <div id="center">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div className={load ? "none" : "visible"}>
             <header id="navbar">
             <div className="logo">
                 <h2 className="logo">g<span>J</span></h2>
@@ -62,7 +80,7 @@ export default function Portfolio() {
                     <Contacto />
                 </div>
             </main>
-
+        </div>
         </>
         
     )

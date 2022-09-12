@@ -9,9 +9,18 @@ import Proyectos from "./Proyectos";
 import Contacto from "./Contacto";
 
 export default function Portfolio() {
+    
+    // window.onload = function() {
+    //     const load = document.getElementById('load');
+    //     const div = document.getElementById('hidden');
+
+    //     load.fadeOut()
+
+    // };
+
     return(
-        <>
-            <div id='load'>
+        <div id='hidden'>
+            <div id={window.onload ? 'none' : 'load'}>
                 <div class="lds-ripple">
                     <div></div>
                     <div></div>
@@ -68,7 +77,7 @@ export default function Portfolio() {
                 </div>
             </main>
 
-        </>
+        </div>
         
     )
 

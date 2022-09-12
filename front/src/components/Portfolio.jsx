@@ -10,8 +10,16 @@ import Contacto from "./Contacto";
 
 export default function Portfolio() {
     
+        window.onload = function() {
+            const load = document.getElementById('load');
+            const body = document.getElementsByTagName('body');
+    
+            load.style.display = 'none';
+            body.style.overflow = 'scroll';
+        };
+    
     return(
-        <div id="hidden">
+        <>
             <div id='load'>
                 <div class="lds-ripple">
                     <div></div>
@@ -69,7 +77,7 @@ export default function Portfolio() {
                 </div>
             </main>
 
-        </div>
+        </>
         
     )
 

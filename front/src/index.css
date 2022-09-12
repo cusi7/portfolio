@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: azure;
-  overflow: hidden;
 }
 
 ::-webkit-scrollbar{

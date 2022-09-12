@@ -9,18 +9,17 @@ import Proyectos from "./Proyectos";
 import Contacto from "./Contacto";
 
 export default function Portfolio() {
-    
-        window.onload = function() {
-            const load = document.getElementById('load');
-            const body = document.getElementsByTagName('body');
-    
-            load.style.display = 'none';
-            body.style.overflow = 'scroll';
-        };
+
+    const [loading, setLoading] = React.useState(true)
+
+    React.useEffect(async() => {
+        await window.onload();
+        setLoading(false);
+    }, []);
     
     return(
         <>
-            <div id='load'>
+            <div className={loading? "load" : "none"}>
                 <div class="lds-ripple">
                     <div></div>
                     <div></div>

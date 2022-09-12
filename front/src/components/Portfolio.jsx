@@ -10,17 +10,18 @@ import Contacto from "./Contacto";
 
 export default function Portfolio() {
     
-    // window.onload = function() {
-    //     const load = document.getElementById('load');
-    //     const div = document.getElementById('hidden');
+    window.onload = function() {
+        const load = document.getElementById('load');
+        const div = document.getElementById('hidden');
 
-    //     load.fadeOut()
+        load.style.display = 'none';
+        div.id = '.';
 
-    // };
+    };
 
     return(
         <div id='hidden'>
-            <div id={window.onload ? 'none' : 'load'}>
+            <div id='load'>
                 <div class="lds-ripple">
                     <div></div>
                     <div></div>

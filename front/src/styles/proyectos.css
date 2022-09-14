@@ -53,10 +53,9 @@
 .hoja p {
     font-family: 'Love Ya Like A Sister', cursive;
     color: #212224;
-    font-size: 20px;
+    font-size: 25px;
     transform: rotate(2deg);
     margin-left: -100px;
-    margin-top: -5px;
 }
 
 .hoja span {
@@ -107,7 +106,7 @@
 }
 
 @keyframes cambioR{
-    33%{
+    50%{
         content: url("https://res.cloudinary.com/cusi/image/upload/v1661731941/Proyectos/rec-book-2_kt2nne.jpg");
     }
     66%{
@@ -119,6 +118,15 @@
 }
 .proyect.rb:hover {
     animation: cambioR 9s infinite;
+}
+
+@keyframes cambioG{
+    50%{
+        content: url("https://res.cloudinary.com/cusi/image/upload/v1663139545/Proyectos/costos-app-2_jru9oc.jpg");
+    }
+}
+.proyect.gas:hover {
+    animation: cambioG 7s infinite;
 }
 
 .botoncito.proyec {
@@ -143,6 +151,9 @@
     .hoja h4 {
         font-size: 20px;
         margin-left: -150px;
+    }
+    .hoja p {
+        font-size: 15px;
     }
     .proyect {
         width: 90vw;

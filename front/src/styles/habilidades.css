@@ -62,6 +62,13 @@
     visibility: visible;
 }
 
+.habilidades.angular:hover {
+    content: url("https://res.cloudinary.com/cusi/image/upload/v1663139824/angular_ebywsd.png");
+}
+.habilidades.angular:hover + .name.angular {
+    visibility: visible;
+}
+
 .habilidades.mui:hover {
     content: url("https://res.cloudinary.com/cusi/image/upload/v1661658697/materialUI_trgvbg.png");
 }

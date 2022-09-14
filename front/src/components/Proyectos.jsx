@@ -53,6 +53,28 @@ export default function Proyectos() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661625331/flecha-2_ocb6oi.png" alt="flecha1" className="flecha1 port" />
                 </div>
             </div>
+            <div className="grid">
+                <div>
+                    <img src="https://res.cloudinary.com/cusi/image/upload/v1661698183/chincheta_whvbcl.png" alt="chinche" className="chinche"/>
+                    <div className="hoja">
+                        <h4>Admin Gastos</h4>
+                        <div>
+                            <img src="https://res.cloudinary.com/cusi/image/upload/v1663139533/Proyectos/costos-app_iywr0t.jpg" alt="imgGastos" className="proyect gas"/>
+                        </div>  
+                        <p><span>*</span>Desarrollo Front-end Angular</p> 
+                    </div>
+                </div>
+                <div className="columna">
+                    <div>
+                        <a href="https://inspiring-seahorse-c66785.netlify.app/" target="_blank" rel="noopener noreferrer" className='botoncito proyec'>
+                            <button className="boton">
+                                Deploy
+                            </button>
+                        </a>
+                    </div>
+                    <img src="https://res.cloudinary.com/cusi/image/upload/v1661625331/flecha-2_ocb6oi.png" alt="flecha1" className="flecha1 port" />
+                </div>
+            </div>
         </div> 
     </div> 
     )

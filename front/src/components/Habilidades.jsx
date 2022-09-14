@@ -29,6 +29,10 @@ export default function Habilidades() {
                 <p className="name redux">Redux</p>
             </div>
             <div className="icon">
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1663139831/angular_b_u4aedg.png" alt="angular" className="habilidades angular"/>
+                <p className="name angular">Angular</p>
+            </div>
+            <div className="icon">
                 <img src="https://res.cloudinary.com/cusi/image/upload/v1661658708/materialUI_b_o3tkjg.png" alt="mui" className="habilidades mui"/>
                 <p className="name mui">Material UI</p>
             </div>

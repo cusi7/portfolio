@@ -53,9 +53,10 @@
 .hoja p {
     font-family: 'Love Ya Like A Sister', cursive;
     color: #212224;
-    font-size: 15px;
+    font-size: 18px;
     transform: rotate(2deg);
-    margin-left: 100px;
+    margin-left: -100px;
+    margin-top: -10px;
 }
 
 .hoja span {
@@ -87,11 +88,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.contenido {
-    width: 500px;
-    height: 250px;
 }
 
 @keyframes cambioN{

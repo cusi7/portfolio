@@ -77,7 +77,40 @@
     align-items: flex-start;
 }
 
-@keyframes cambioN{
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	33% {margin-left: 0;}
+	
+	33% {margin-left: -100%;}
+	66% {margin-left: -100%;}
+	
+	66% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+/* @keyframes cambioN{
     33%{
         content: url("https://res.cloudinary.com/cusi/image/upload/v1661731878/Proyectos/nftM-3_jqya3v.jpg");
     }
@@ -91,7 +124,7 @@
 .proyect.nft:hover {
     animation: cambioN 9s infinite;
     transition: ease-in 0.8s;
-}
+} */
 
 @keyframes cambioR{
     33%{

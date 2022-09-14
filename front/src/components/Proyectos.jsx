@@ -13,20 +13,10 @@ export default function Proyectos() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661698183/chincheta_whvbcl.png" alt="chinche" className="chinche"/>
                     <div className="hoja">
                         <h4>NFT Market</h4>
-                        <div className="slider">
-                            <ul>
-                                <li>
-                                    <img src="https://res.cloudinary.com/cusi/image/upload/v1661731866/Proyectos/nftM-1_kdjwy3.jpg" alt="imgNFT" className="proyect"/>
-                                </li>
-                                <li>
-                                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661731878/Proyectos/nftM-3_jqya3v.jpg" alt="imgNFT2" className="proyect"/>
-                                </li>
-                                <li>
-                                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661731888/Proyectos/nftM-6_elojat.jpg" alt="imgNFT3" className="proyect"/>
-                                </li>
-                            </ul>
-                        </div>
-                        
+                        <div className="contenido">
+                            <img src="https://res.cloudinary.com/cusi/image/upload/v1661731866/Proyectos/nftM-1_kdjwy3.jpg" alt="imgNFT" className="proyect nft"/>
+                        </div>  
+                        <p><span>*</span>Desarrollo Back-end</p> 
                     </div>
                 </div>
                 <div className="columna">
@@ -45,7 +35,11 @@ export default function Proyectos() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661698183/chincheta_whvbcl.png" alt="chinche" className="chinche"/>
                     <div className="hoja">
                         <h4>Recipe Book</h4>
-                        <img src="https://res.cloudinary.com/cusi/image/upload/v1661731899/Proyectos/rec-book-1_yztlxp.jpg" alt="imgRB" className="proyect rb"/>
+                        
+                        <div className="contenido">
+                            <img src="https://res.cloudinary.com/cusi/image/upload/v1661731899/Proyectos/rec-book-1_yztlxp.jpg" alt="imgRB" className="proyect rb"/>
+                        </div>
+                        <p><span>*</span>Desarrollo Full-Stack</p>
                     </div>
                 </div>
                 <div className="columna">

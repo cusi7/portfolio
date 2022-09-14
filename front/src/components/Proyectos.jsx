@@ -66,7 +66,7 @@ export default function Proyectos() {
                 </div>
                 <div className="columna">
                     <div>
-                        <a href="https://inspiring-seahorse-c66785.netlify.app/" target="_blank" rel="noopener noreferrer" className='botoncito proyec'>
+                        <a href="https://gastos-admin.vercel.app/" target="_blank" rel="noopener noreferrer" className='botoncito proyec'>
                             <button className="boton">
                                 Deploy
                             </button>

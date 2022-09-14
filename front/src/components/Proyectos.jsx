@@ -13,7 +13,7 @@ export default function Proyectos() {
                     <img src="https://res.cloudinary.com/cusi/image/upload/v1661698183/chincheta_whvbcl.png" alt="chinche" className="chinche"/>
                     <div className="hoja">
                         <h4>NFT Market</h4>
-                        <div className="contenido">
+                        <div>
                             <img src="https://res.cloudinary.com/cusi/image/upload/v1661731866/Proyectos/nftM-1_kdjwy3.jpg" alt="imgNFT" className="proyect nft"/>
                         </div>  
                         <p><span>*</span>Desarrollo Back-end</p> 
@@ -36,7 +36,7 @@ export default function Proyectos() {
                     <div className="hoja">
                         <h4>Recipe Book</h4>
                         
-                        <div className="contenido">
+                        <div>
                             <img src="https://res.cloudinary.com/cusi/image/upload/v1661731899/Proyectos/rec-book-1_yztlxp.jpg" alt="imgRB" className="proyect rb"/>
                         </div>
                         <p><span>*</span>Desarrollo Full-Stack</p>

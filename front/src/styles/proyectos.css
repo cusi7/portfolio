@@ -53,10 +53,10 @@
 .hoja p {
     font-family: 'Love Ya Like A Sister', cursive;
     color: #212224;
-    font-size: 18px;
+    font-size: 20px;
     transform: rotate(2deg);
     margin-left: -100px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .hoja span {

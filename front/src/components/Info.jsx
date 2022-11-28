@@ -16,7 +16,7 @@ export default function Info() {
                 <li className="texto">Te invito a descargar mi CV, y no dudes en contactarme para conocer más sobre mí...</li>
             </ul>
             <img src="https://res.cloudinary.com/cusi/image/upload/v1661625331/flecha-2_ocb6oi.png" alt="'flecha1" className='flecha1'/>
-            <a href="https://drive.google.com/file/d/1OgJ9InBjrBkE5dUYneX5sixF3J5_fa9V/view" target="_blank" rel="noopener noreferrer" className='botoncito cv'>
+            <a href= "https://drive.google.com/file/d/1jyYVd22ByGd6fkZANeZz03ejlXlg36iJ/view" target="_blank" rel="noopener noreferrer" className='botoncito cv'>
                 <button className="boton">
                     Mi CV
                 </button>

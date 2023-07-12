@@ -1,0 +1,95 @@
+
+.slider {
+    width: 100%;
+    height: fit-content;
+    margin: 0 10px 10px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transform: translateX(0);
+    will-change: transform;
+    transition: transform 0.3s ease-out;
+    cursor: grab;
+}
+.slide {
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+    transition: filter 0.3s ease-in-out;
+    user-select: none;
+}
+.grabbing {
+    cursor: grabbing;
+  }
+.grabbing .slide img {
+    filter: grayscale(70%);
+}
+.manualNav {
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-self: center;
+    margin-left: 65%;
+    margin-bottom: 5px;
+}
+.manualBtn {
+    border: 3px solid #fc289c;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 20px;
+}
+.manualBtn:hover {
+    background-color: #fc289c;
+}
+
+/*nft proyect*/
+
+#radio1nftMarket:checked ~ .slide.firstnftMarket {
+    margin-left: 0;
+}
+#radio2nftMarket:checked ~ .firstnftMarket {
+    margin-left: -33.333%;
+}
+#radio3nftMarket:checked ~ .firstnftMarket {
+    margin-left: -66.666%;
+}
+
+/*recipeBook proyect*/
+
+#radio1recBook:checked ~ .slide.firstrecBook {
+    margin-left: 0;
+}
+#radio2recBook:checked ~ .firstrecBook {
+    margin-left: -33.333%;
+}
+#radio3recBook:checked ~ .firstrecBook {
+    margin-left: -66.666%;
+}
+
+/*adminGastos proyect*/
+
+#radio1adminGastos:checked ~ .slide.firstadminGastos {
+    margin-left: 0;
+}
+#radio2adminGastos:checked ~ .firstadminGastos {
+    margin-left: -33.333%;
+}
+
+@media (max-width:600px){
+    .slider {
+        height: auto;
+    }
+    .manualNav {
+        margin-left: 70%;
+    }
+    .manualBtn {
+        padding: 4px;
+        border-radius: 8px;
+    }
+}

@@ -152,10 +152,10 @@ export default function Contacto() {
         </div>
         <div className="row in">
             <a href="https://www.linkedin.com/in/griselda-juarez-developer/" target="_blank" rel="noopener noreferrer" className="ingh">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661787194/in_b_uelige.png" alt="linkedin" className="habilidades in" />
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661787200/in_kki0ry.png" alt="linkedin" className="habilidades socm" />
             </a>
             <a href="https://github.com/cusi7" target="_blank" rel="noopener noreferrer" className="ingh">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661787680/gh_b_r1ogwc.png" alt="github" className="habilidades gh" />
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661791848/gh_bi5qsu.png" alt="github" className="habilidades socm" />
             </a>
         </div>
         </>

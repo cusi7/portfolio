@@ -1,19 +1,18 @@
 .texto {
-    font-family: 'Coming Soon', cursive;
-    font-size: large;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .flecha1 {
     position: absolute;
-    width: 10%;
+    width: 9%;
     transform: rotate(30deg);
     margin-left: 50px;
-    z-index: -100;
 }
 
 .boton {
-    background-color: #212224;
+    background-color: rgb(19, 20, 19);
     display: block;
     padding: 5px 15px;
     border-radius: 5px;
@@ -23,8 +22,7 @@
     border-bottom-right-radius: 225px 15px;
     border-bottom-left-radius: 300px 20px;
     color: #FDEEBB;
-    font-weight: bold;
-    font-family: 'Delius', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
     font-size: 20px;
     margin-top: -5px;
     margin-right: -5px;
@@ -47,13 +45,24 @@
     background-image: url('https://res.cloudinary.com/cusi/image/upload/v1661544461/lineas_sketch_zprhdr.png');
     background-size: 500%;
     background-position: center;
+    animation: tilt-n-move-shaking 0.25s infinite;
 }
+@keyframes tilt-n-move-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(0.5px, 0.5px) rotate(0.5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-0.5px, 0.5px) rotate(-0.5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
 .botoncito:active {
     padding-bottom: 0px;
     padding-left: 0px;
     margin-top: 5px;
     margin-right: 5px;
     box-shadow: none;
+}
+.botoncito:hover{
+    animation: none;
 }
 .botoncito.cv {
     margin-left: 200px;
@@ -68,20 +77,24 @@
 #foco {
     width: 150px;
     margin-top: -20px;
+    margin-left: 10px;
 }
 
 #nave {
     width: 150px;
     transform: rotate(-25deg);
-    z-index: -100;
+    
 }
 
 @media (max-width: 600px) {
+    #info {
+        width: 100vw;
+    }
     #imagenes {
         display: none;
     }
     .texto {
-        font-size: 12px;
+        font-size: 18px;
     }
     .boton {
         font-size: 15px;

@@ -5,54 +5,36 @@
     align-items: flex-start;
 }
 
+.hojas hr {
+    width: 50%;
+    border: 1px dashed #FDEEBB;
+
+}
+
 .hoja {
-    background-image: url("https://res.cloudinary.com/cusi/image/upload/v1661703040/hoja_lasb8l.png");
-    background-size: cover;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     height: 55vh;
-    padding: 25px;
-    box-shadow: -10px 10px 22px 0px rgba(0,0,0,0.8); 
+    padding: 25px; 
     margin-top: -50px;
     margin-bottom: 30px;
-}
-
-@keyframes hoja {
-    20%{
-        transform: rotate(5deg)
-      }
-    40%{
-        transform: rotate(-3deg)
-      }
-    60%{
-        transform: rotate(2deg)
-      }
-    80%{
-        transform: rotate(-1deg)
-      }  
-}
-.hoja:hover {
-    animation: hoja 1s 1;  
-    transform-origin: top center;
 }
 
 .hoja h4 {
     font-family: 'Love Ya Like A Sister', cursive;
     font-weight: lighter;
-    color: #212224;
+    color: azure;
     font-size: 30px;
-    background-color: rgba(229, 229, 23, 0.6);
+    background-color: rgba(248, 248, 8, 0.6);
     transform: rotate(-5deg);
-    margin-top: 0;
-    margin-left: -300px;
+    margin: 0 0 5px -300px;
 }
 
 .hoja p {
     font-family: 'Love Ya Like A Sister', cursive;
-    color: #212224;
+    color: azure;
     font-size: 25px;
     transform: rotate(2deg);
     margin-left: -100px;
@@ -64,23 +46,64 @@
 }
 
 .proyect {
-    width: 500px;
+    width: 100%;
+    border-radius: 10px;
     margin-left: 50px;
     margin-top: -20px;
 }
 
-.grid {
-    margin-top: 15px;
+.itemProyect {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin: 5px;
 }
 
-.chinche {
-    height: 100px;
-    position: relative;
-    z-index: 1;
-    margin-top: -50px;
-    left: 250px;
+.flechaProyect {
+    width: 90%;
+    margin-right: 10px;
+}
+.one {
+    transform: rotate(20deg);
+}
+.two {
+    transform: rotate(-5deg) translateY(10px);
+}
+
+.uno {
+    transform: rotate(-2deg);
+}
+.dos {
+    transform: rotate(3deg);
+}
+
+.skillsProyect {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 4px;
+    justify-items: center;
+    align-items: center;
+}
+.sProyect {
+    width: 70%;
+    transform: rotate(2deg);
+}
+.lProyect {
+    width: 100%;
+    transform: rotate(-5deg);
+}
+.tProyect {
+    width: 35%;
+    transform: rotate(5deg);
+}
+.ex {
+    height: 60%;
+}
+
+.grid {
+    margin: 40px 0 ;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .columna {
@@ -88,69 +111,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: -100px;
 }
 
-@keyframes cambioN{
-    33%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731878/Proyectos/nftM-3_jqya3v.jpg");
-    }
-    66%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731888/Proyectos/nftM-6_elojat.jpg");
-    }
-    99%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731866/Proyectos/nftM-1_kdjwy3.jpg");
-    }
-}
-.proyect.nft:hover {
-    animation: cambioN 9s infinite;
-    transition: ease-in 0.8s;
-}
 
-@keyframes cambioR{
-    50%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731941/Proyectos/rec-book-2_kt2nne.jpg");
-    }
-    66%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731957/Proyectos/rec-book-6_uu5m9h.jpg");
-    }
-    99%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1661731899/Proyectos/rec-book-1_yztlxp.jpg");
-    }
-}
-.proyect.rb:hover {
-    animation: cambioR 9s infinite;
-}
-
-@keyframes cambioG{
-    50%{
-        content: url("https://res.cloudinary.com/cusi/image/upload/v1663139545/Proyectos/costos-app-2_jru9oc.jpg");
-    }
-}
-.proyect.gas:hover {
-    animation: cambioG 7s infinite;
-}
-
-.botoncito.proyec {
-    margin-bottom: 50px;
-    margin-left: 70px;
-}
-
-.flecha1.port {
-    position: relative;
-    width: 130px;
-    transform: rotate(-30deg);
-    margin-left: 0;
-    margin-bottom: 100px;
+.enlaceP {
+    margin-top: 10px;
 }
 
 @media (max-width:600px) {
     .hoja {
-        height: 200px;
-        padding: 15px;
-        margin-top: -40px;
+        height: fit-content;
     }
     .hoja h4 {
-        font-size: 20px;
+        font-size: 25px;
         margin-left: -150px;
     }
     .hoja p {
@@ -167,19 +141,44 @@
         justify-content: center;
         margin-bottom: -45px;
     }
-    .chinche {
-        height: 60px;
-        left: 150px;
-    }
     .columna {
-        flex-direction: row-reverse;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 10px 20px 10px;
+        margin-top: -45px;
+        margin-bottom: 30px ;
     }
-    .flecha1.port {
-        width: 100px;
-        transform: rotate(30deg);
+    .itemProyect {
+        display: flex;
+        flex-direction: row;
     }
     .botoncito.proyec {
         margin-left: 15px;
+    }
+    .invisible {
+        display: none;
+    }
+    .uno {
+        font-size: 15px;
+    }
+    .flechaProyect{
+        width: 50px;
+    }
+    .sProyect {
+        width: 60%;
+    }
+    .lProyect {
+        width: 90%;
+    }
+    .tProyect {
+        width: 25%;
+    }
+    .flecha1.port {
+        margin-left: 5px;
+    }
+    .botoncito.cv.portf {
+        margin-left: 110px;
     }
 
 }

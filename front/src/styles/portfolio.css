@@ -1,3 +1,6 @@
+#todo {
+    max-width: 100vw;
+}
 #center {
     display: flex;
     justify-content: center;
@@ -107,7 +110,8 @@
 }
 
 .logo {
-    font-family: 'Freckle Face', cursive;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: lighter;
     font-size: 30px;
     margin-top: 20px;
     margin-left: 10px;
@@ -117,18 +121,21 @@
     color: rgb(185, 9, 9);
 }
 
-#main {
-    padding-top: 70px;
+.pag {
+    min-height: 100vh;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
 
-.pag {
-    margin: 0 auto;
-    width: 80vw;
-    min-height: 90vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    margin-bottom: 50px;
+.oscure{
+    background-color: rgb(19, 20, 19);
+}
+
+#home{
+    margin-top: 0;
+    padding-top: 70px;
 }
 
 .pag.sec {
@@ -137,13 +144,15 @@
 
 .pag.sec.contact {
     align-items: flex-start;
+
 }
 
 .pag.ter {
     grid-template-columns: 3fr 1fr;
+
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     #navbar {
         justify-content: flex-start;
     }
@@ -156,6 +165,9 @@
         display: none;
         margin-left: 0;
     }
+}
+
+@media (max-width: 600px) {
     .link.home {
         display: none;
     }
@@ -164,10 +176,14 @@
     }
     .pag {
         width: 100vw;
-        height: 100%;
+        padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .oscure {
+        background-color: rgba(19, 20, 19, 0);
     }
 }

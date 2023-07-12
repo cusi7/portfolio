@@ -12,15 +12,14 @@ export default function Portfolio() {
 
     const [load, setLoad] = useState(true);
     
-    useEffect(() => {
+    window.addEventListener('load', function() {
         setTimeout(()=> {
             setLoad(false)
         }, 4000)
-
-    }, [])
+    });
 
     return(
-        <>
+        <div id="todo">
         <div className={load ? "visible" : "none"}>
             <div id="center">
                 <div class="lds-ripple">
@@ -32,7 +31,7 @@ export default function Portfolio() {
         <div className={load ? "none" : "visible"}>
             <header id="navbar">
             <div className="logo">
-                <h2 className="logo">g<span>J</span></h2>
+                <h2 className="logo">G<span>J</span></h2>
             </div>
                 <ul id="menu">
                     <li>
@@ -41,22 +40,22 @@ export default function Portfolio() {
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="info" spy={true} smooth={true} offset={460} duration={500} className='link'>
+                        <Link activeClass="active" to="info" spy={true} smooth={true} offset={650} duration={500} className='link'>
                             <button>Sobre mí</button>
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="habilidades" spy={true} smooth={true} offset={-80} duration={500} className='link'>
+                        <Link activeClass="active" to="habilidades" spy={true} smooth={true} offset={-30} duration={500} className='link'>
                             <button>Habilidades</button>
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="proyectos" spy={true} smooth={true} offset={-120} duration={500} className='link'>
+                        <Link activeClass="active" to="proyectos" spy={true} smooth={true} offset={-60} duration={500} className='link'>
                             <button>Proyectos</button>
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="contacto" spy={true} smooth={true} offset={-120} duration={500} className='link'>
+                        <Link activeClass="active" to="contacto" spy={true} smooth={true} offset={-50} duration={500} className='link'>
                             <button>Contacto</button>
                         </Link>
                     </li>
@@ -64,24 +63,24 @@ export default function Portfolio() {
             </header>
 
             <main id="main">
-                <div id='home' className="pag">
+                <div id='home' className="pag oscure">
                     <Landing />
                 </div>
                 <div id='info' className="pag sec">
                     <Info />
                 </div>
-                <div id='habilidades' className="pag ter">
+                <div id='habilidades' className="pag ter oscure">
                     <Habilidades />
                 </div>
                 <div id='proyectos' className="pag ter">
                     <Proyectos />
                 </div>
-                <div id='contacto' className="pag sec contact">
+                <div id='contacto' className="pag sec contact oscure">
                     <Contacto />
                 </div>
             </main>
         </div>
-        </>
+        </div>
         
     )
 

@@ -9,64 +9,64 @@ export default function Habilidades() {
         <h3 className="titulo">HABILIDADES</h3>
         <div id="iconos">
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658689/js_b_c5phtj.png" alt="html" className="habilidades js"/>
-                <p className="name Js">JavaScript</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658681/js_t5mf5z.png" alt="js" className="habilidades sq"/>
+                <p className="name">JavaScript</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658674/html_b_shh9yn.png" alt="html" className="habilidades Html"/>
-                <p className="name Html">HTML</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658645/html_nue2oe.png" alt="html" className="habilidades sq"/>
+                <p className="name">HTML</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658606/css_b_xrr2bc.png" alt="css" className="habilidades Css"/>
-                <p className="name Css">CSS</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658596/css_n4v4zt.png" alt="css" className="habilidades sq"/>
+                <p className="name">CSS</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658914/react_b_vwn1bz.png" alt="react" className="habilidades react"/>
-                <p className="name react">React</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658886/react_s72hgc.png" alt="react" className="habilidades sq"/>
+                <p className="name">React</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658927/redux_b_h81mip.png" alt="redux" className="habilidades redux"/>
-                <p className="name redux">Redux</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658921/redux_usqdkn.png" alt="redux" className="habilidades sq"/>
+                <p className="name">Redux</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1663139831/angular_b_u4aedg.png" alt="angular" className="habilidades angular"/>
-                <p className="name angular">Angular</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/c_scale,h_140/v1663139824/angular_ebywsd.png" alt="angular" className="habilidades sq"/>
+                <p className="name">Angular</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658708/materialUI_b_o3tkjg.png" alt="mui" className="habilidades mui"/>
-                <p className="name mui">Material UI</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658697/materialUI_trgvbg.png" alt="mui" className="habilidades sq"/>
+                <p className="name">Material UI</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658762/node_b_ryvglc.png" alt="node" className="habilidadesLarge node"/>
-                <p className="name node">Node.js</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658755/node_rp76s1.png" alt="node" className="habilidades large"/>
+                <p className="name">Node.js</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658619/express_b_auhlyw.png" alt="express" className="habilidadesLarge exp"/>
-                <p className="name exp">Express</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658613/express_ru9mhe.png" alt="express" className="habilidades large"/>
+                <p className="name">Express</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661696207/postgreN_fc9bi6.png" alt="postgre" className="habilidades post"/>
-                <p className="name post">PostgreSQL</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661696216/postgreNColor_zjuepb.png" alt="postgre" className="habilidades sq"/>
+                <p className="name">PostgreSQL</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658941/sequelize_b_iyj3br.png" alt="sequelize" className="habilidades seq"/>
-                <p className="name seq">Sequelize</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658935/sequelize_rvkdyg.png" alt="sequelize" className="habilidades sq"/>
+                <p className="name">Sequelize</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658720/mongoDB_b_nsmqfp.png" alt="mongo" className="habilidadesTall mongodb"/>
-                <p className="name mongodb">MongoDB</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658714/mongoDB_zjk8u4.png" alt="mongo" className="habilidades tall"/>
+                <p className="name">MongoDB</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658740/mongoose_b_ucrhtf.png" alt="mongoose" className="habilidadesLarge mongoo"/>
-                <p className="name mongoo">Mongoose</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658732/mongoose_unhsg1.png" alt="mongoose" className="habilidades large"/>
+                <p className="name">Mongoose</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658894/postman_b_q7d0ay.png" alt="postman" className="habilidades postman"/>
-                <p className="name postman">Postman</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658879/postman_n1skvc.png" alt="postman" className="habilidades sq"/>
+                <p className="name">Postman</p>
             </div>
             <div className="icon">
-                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658644/git_b_q8m1cq.png" alt="git" className="habilidades git"/>
-                <p className="name git">Git</p>
+                <img src="https://res.cloudinary.com/cusi/image/upload/v1661658630/git_vlenz8.png" alt="git" className="habilidades sq"/>
+                <p className="name">Git</p>
             </div>
         </div>
         </div>

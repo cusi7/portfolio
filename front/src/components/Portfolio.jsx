@@ -16,12 +16,6 @@ export default function Portfolio() {
         setLoad(false);
     }, 4000)
     
-    /*window.addEventListener('load', function() {
-        setTimeout(()=> {
-            setLoad(false)
-        }, 4000)
-    });
-*/
     return(
         <div id="todo">
         <div className={load ? "visible" : "none"}>
